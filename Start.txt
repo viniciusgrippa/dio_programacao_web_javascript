@@ -1,2 +1,13 @@
 Introduçao ao Javascript - @Rafael Galleani
 
+    Linguagem de script e multiplataforma
+
+    Client Side - É executado do lado do cliente (usuário)
+
+    Tem capacidade de interagir com elementos de uma página HTML
+
+    Muito usado no desenvolvimento de páginas e também de aplicativos mobile híbridos
+
+    - DOM (Document Object Model)
+        Javascript pode alterar todos os elementos HTML
+        Também pode alterar todos os atributos e estilos CSS de uma página
