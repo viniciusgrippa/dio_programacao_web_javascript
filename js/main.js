@@ -1,8 +1,31 @@
-var d = new Date();
-console.log(d);
-console.log(d.getMonth() + 1);
-console.log(d.getMinutes());
-console.log(d.getHours());
+function validaIdade(idade) {
+    var validar
+    if (idade >= 18) {
+        validar = true;
+    } else {
+        validade = false;
+    }
+    return validar;
+}
+
+var idade = prompt("Qual sua idade");
+console.log(validaIdade(idade));
+
+// function soma(n1, n2) {
+//     return n1 + n2;
+// }
+
+// function setReplace(frase, nome, novo_nome) {
+//     return frase.replace(nome, novo_nome);
+// }
+
+// console.log(soma(5, 3));
+// console.log(setReplace("Vai Japão", "Japão", "Acre"));
+// var d = new Date();
+// console.log(d);
+// console.log(d.getMonth() + 1);
+// console.log(d.getMinutes());
+// console.log(d.getHours());
 
 
 
